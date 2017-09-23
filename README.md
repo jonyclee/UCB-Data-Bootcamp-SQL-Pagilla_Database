@@ -113,6 +113,8 @@ END);
 
 ![JOIN Table](Images/JOIN.png)
 
+* 5a.
+
 	* When would you use rank?
 		You would use rank when you want to count the rows, but you have duplicate values. Rows with the same values would be assigned the same rank value. However, there is a gap between ranks.
 
@@ -120,6 +122,8 @@ END);
 		You would use dense_rank when you want to count the rows, but you have duplicate values. Rows with the same values would be assigned the same rank value. However unlike rank, there is no gap between different dense_ranks.
 
 ![Rank vs DENSE_RANK](Images/rank.png)
+
+* 5a.
 
 	* When would you use a subquery in a select?
 		You would use a subquery in a select when you know what to look for using a SELECT but don't know which exact value.
