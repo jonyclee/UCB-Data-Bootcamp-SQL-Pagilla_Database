@@ -105,48 +105,48 @@ END);
 ```
 
 * 5a. 
-	* What’s the difference between a left join and a right join.
+	* What’s the difference between a left join and a right join. <br>
 		The difference between a left join and a right join is that a left join will create join the 2 tables on the table on the left of the join statement and will include all the values from the left table regardless of whether those values exist in the right table and vice versa for a right join. Refer to the table below for a better understanding.
 
-	* What about an inner join and an outer join?
+	* What about an inner join and an outer join? <br>
 		The difference between an inner and outer join is that an inner join would only include values that exists in both tables. On the other hand, the outer join would include all the values in both tables regarless of if there is an overlap. Refer to the table below for a better understanding.
 
 ![JOIN Table](Images/JOIN.png)
 
 * 5a.
 
-	* When would you use rank?
+	* When would you use rank? <br>
 		You would use rank when you want to count the rows, but you have duplicate values. Rows with the same values would be assigned the same rank value. However, there is a gap between ranks.
 
-	* What about dense_rank?
+	* What about dense_rank? <br>
 		You would use dense_rank when you want to count the rows, but you have duplicate values. Rows with the same values would be assigned the same rank value. However unlike rank, there is no gap between different dense_ranks.
 
 ![Rank vs DENSE_RANK](Images/rank.png)
 
 * 5a.
 
-	* When would you use a subquery in a select?
+	* When would you use a subquery in a select? <br>
 		You would use a subquery in a select when you know what to look for using a SELECT but don't know which exact value.
 
-	* When would you use a right join?
+	* When would you use a right join? <br>
 		You would use a right join when you are interested in the values that only exists in the right table.
 
-	* When would you use an inner join over an outer join?
+	* When would you use an inner join over an outer join? <br>
 		You would use an inner join over an outer join when you only want values that appear in both tables and not all the values in both tables.
 
-	* What’s the difference between a left outer and a left join
+	* What’s the difference between a left outer and a left join <br>
 		There is NO difference between a left outer and a left join.
 
-	* When would you use a group by?
+	* When would you use a group by? <br>
 		You would use a group by when you have an aggregate statement such as COUNT, SUM, AVG, etc.
 
-	* Describe how you would do data reformatting
+	* Describe how you would do data reformatting <br>
 		You would do data reformatting by using the FORMAT function.
 
-	* When would you use a with clause?
+	* When would you use a with clause? <br>
 		You would use a with clause to assign a name to a subquery
 
-	* Bonus: When would you use a self join?
+	* Bonus: When would you use a self join? <br>
 		You would use a self join when you want to compare values from the same column in the same table.
 
 * 6a. Use a JOIN to display the first and last names, as well as the address, of each staff member. Use the tables staff and address:
@@ -325,28 +325,28 @@ DROP VIEW top_5_gross_genre;
 
 ### Appendix: List of Tables in the Pagilla DB
 ***
-'actor'
-'actor_info'
-'address'
-'category'
-'city'
-'country'
-'customer'
-'customer_list'
-'film'
-'film_actor'
-'film_category'
-'film_list'
-'film_text'
-'inventory'
-'language'
-'nicer_but_slower_film_list'
-'payment'
-'rental'
-'sales_by_film_category'
-'sales_by_store'
-'staff'
-'staff_list'
+'actor' <br>
+'actor_info' <br>
+'address' <br>
+'category' <br>
+'city' <br>
+'country' <br>
+'customer' <br>
+'customer_list' <br>
+'film' <br>
+'film_actor' <br>
+'film_category' <br>
+'film_list' <br>
+'film_text' <br>
+'inventory' <br>
+'language' <br>
+'nicer_but_slower_film_list' <br>
+'payment' <br>
+'rental' <br>
+'sales_by_film_category' <br>
+'sales_by_store' <br>
+'staff' <br>
+'staff_list' <br>
 'store'
 
 ##### Contributors
